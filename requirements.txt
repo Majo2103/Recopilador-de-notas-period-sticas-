@@ -1,0 +1,10 @@
+requests>=2.31
+pandas>=2.0
+openpyxl>=3.1
+
+# Opcional: solo si usas --decodificar-links (obtiene la URL real de las notas de Google News)
+# googlenewsdecoder>=0.1.7
+
+# Opcional: solo si usas --cuerpo-completo en recopilar_noticias_zm_general.py
+# (mejor extracción del texto de cada nota; sin esto usa un método más básico)
+# trafilatura>=1.8
